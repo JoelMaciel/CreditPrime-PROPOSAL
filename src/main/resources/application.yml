@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/proposaldb
+    username: joel
+    password: postgres123456
+    initialization-mode: always
+  jpa:
+    hibernate:
+      ddl-auto: create
